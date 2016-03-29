@@ -27,5 +27,3 @@ def get_password(name):
     for i in data_users:
         if name == i[1]:
             return i[4]
-
-print(data_languages)
